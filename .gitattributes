@@ -1,9 +1,12 @@
-# Ignore frontend files for GitHub language stats
-frontend/* linguist-detectable=false
-static/* linguist-detectable=false
+# Ignore frontend files for GitHub language statistics
 
-# Ignore specific frontend extensions
+# Ignore by file extensions
 *.css linguist-detectable=false
 *.scss linguist-detectable=false
 *.js linguist-detectable=false
 *.html linguist-detectable=false
+
+# Ignore by folders
+statics/* linguist-detectable=false
+templates/* linguist-detectable=false
+Website/* linguist-detectable=false
