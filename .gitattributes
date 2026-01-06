@@ -1,16 +1,16 @@
 # Ignore frontend files from GitHub linguist language statistics
 
 # Ignore by file extension
-*.css linguist-detectable=false
-*.scss linguist-detectable=false
+*.css linguist-detectable=True
+*.scss linguist-detectable=True
 *.js linguist-detectable=false
 *.map linguist-detectable=false
-*.html linguist-detectable=false
+*.html linguist-detectable=True
 
 # Ignore frontend directories (explicit and exact)
-statics/css/* linguist-detectable=false
+statics/css/* linguist-detectable=True
 statics/js/* linguist-detectable=false
-statics/scss/* linguist-detectable=false
+statics/scss/* linguist-detectable=True
 statics/fonts/* linguist-detectable=false
 statics/img/* linguist-detectable=false
 
@@ -19,10 +19,10 @@ templates/* linguist-detectable=false
 # Ignore frontend files for GitHub language statistics
 
 # Ignore by file extensions
-*.css linguist-detectable=false
-*.scss linguist-detectable=false
+*.css linguist-detectable=True
+*.scss linguist-detectable=True
 *.js linguist-detectable=false
-*.html linguist-detectable=false
+*.html linguist-detectable=True
 
 # Ignore by folders
 statics/* linguist-detectable=false
