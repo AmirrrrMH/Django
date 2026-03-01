@@ -1,0 +1,11 @@
+{% load static %}
+<div class="single-sidebar-widget tag-cloud-widget">
+  <h4 class="tagcloud-title">Tag Clouds</h4>
+  {% for cat in categories %}
+    <ul>
+      <li>
+        <a href="#">{{ cat.name }}</a>
+      </li>
+    </ul>
+  {% endfor %}
+</div>
